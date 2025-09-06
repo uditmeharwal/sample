@@ -37,4 +37,12 @@ git push -u origin main
 
 git remote -v = show remote url
 git remote remove origin = remove remote url
+git push = push changes to remote repository
+git pull = fetch + merge
+git clone
 
+
+branching and merging ----
+git branch = show all branches
+git branch new_branch_name = create new branch
+git checkout new_branch_name = switch to branch
