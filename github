@@ -22,3 +22,10 @@ git restore --worktree . = the file which is not staged will restore to last com
 
 git reset --soft HEAD^ .= if we commit any file by mistake then we can use this command to uncommit the file but the chages are on screen 
 git reset --hard HEAD^ .= if we commit any file by mistake then we can use this command to uncommit the file but the chages will remove 
+
+git logs management and handling ----
+git log -p-2 = show last 2 commit with changes
+git log --stat = show commit with file name and changes
+git log --oneline = show commit in single line
+
+
