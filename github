@@ -54,3 +54,5 @@ merge conflict ----if same file is changed in both branches then it will create 
 git forking and pull request ----
 forking = copy of repository
 pull request = request to merge your changes to original repository
+
+gitignore file ----
