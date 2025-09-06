@@ -8,6 +8,8 @@ git add .
 git commit -m "first commit"
 git log 
 git diff
+
+
 git show 7c2cdc2b89b4619b42917f032c7cfab76207f37f:github  = show commit file in terminal  (git show commitid : file name)
 
 git checkout 7c2cdc2b89b4619b42917f032c7cfab76207f37f --* = show commit file in different file (git checkout commitid -- file name)
@@ -28,4 +30,7 @@ git log -p-2 = show last 2 commit with changes
 git log --stat = show commit with file name and changes
 git log --oneline = show commit in single line
 
-
+remote repository ----
+git remote add origin https://github.com/uditmeharwal/sample.git
+git branch -M main 
+git push -u origin main
