@@ -46,3 +46,4 @@ branching and merging ----
 git branch = show all branches
 git branch new_branch_name = create new branch
 git checkout new_branch_name = switch to branch
+git merge new_branch_name = merge new_branch_name to current branch
