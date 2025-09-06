@@ -59,3 +59,10 @@ gitignore file ----
 create a file named .gitignore in root directory and add the file or folder name which you
     notupload.txt
     *.logs
+
+    git tags
+    git tag -a tag_name commit_id
+    git tag -a tagname -m "my first tag" commit_id
+    git show tag_name
+    git push origin --tags
+ 
