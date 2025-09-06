@@ -15,4 +15,5 @@ git restore . = restore to lastest commit
 git diff --cached = difference between staged and last commit
 git restore --staged . = the file which is staged and not commmited will restore to last commit 
 git restore --worktree . = the file which is not staged will restore to last commit
-
+git reset --soft HEAD^ .= if we commit any file by mistake then we can use this command to uncommit the file but the chages are on screen 
+git reset --hard HEAD^ .= if we commit any file by mistake then we can use this command to uncommit the file but the chages will remove 
