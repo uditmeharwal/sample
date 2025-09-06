@@ -9,5 +9,6 @@ git commit -m "first commit"
 git log 
 git diff
 git show 7c2cdc2b89b4619b42917f032c7cfab76207f37f:github  = show commit file (git show commitid : file name)
-git checkout 7c2cdc2b89b4619b42917f032c7cfab76207f37f:github = checkout commit file (git checkout commitid : file name)
-git checkout master = checkout to master branch
+git checkout 7c2cdc2b89b4619b42917f032c7cfab76207f37f --* = checkout commit file (git checkout commitid : file name)
+git checkout master . = restore to lastest commit
+
