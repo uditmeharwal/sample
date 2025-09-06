@@ -50,3 +50,7 @@ git merge new_branch_name = merge new_branch_name to current branch
 git push origin branch_name = push branch to remote repository
 
 merge conflict ----if same file is changed in both branches then it will create merge conflict
+
+git forking and pull request ----
+forking = copy of repository
+pull request = request to merge your changes to original repository
