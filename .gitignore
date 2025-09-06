@@ -1,0 +1,3 @@
+nonuploadfile
+# Ignore all files with the extension .log
+*.log

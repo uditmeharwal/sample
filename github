@@ -56,3 +56,6 @@ forking = copy of repository
 pull request = request to merge your changes to original repository
 
 gitignore file ----
+create a file named .gitignore in root directory and add the file or folder name which you
+    notupload.txt
+    *.logs
