@@ -34,3 +34,7 @@ remote repository ----
 git remote add origin https://github.com/uditmeharwal/sample.git
 git branch -M main 
 git push -u origin main
+
+git remote -v = show remote url
+git remote remove origin = remove remote url
+
