@@ -11,5 +11,8 @@ git diff
 git show 7c2cdc2b89b4619b42917f032c7cfab76207f37f:github  = show commit file in terminal  (git show commitid : file name)
 git checkout 7c2cdc2b89b4619b42917f032c7cfab76207f37f --* = show commit file in different file (git checkout commitid -- file name)
 git checkout master . = restore to lastest commit
-
+git restore . = restore to lastest commit
+git diff --cached = difference between staged and last commit
+git restore --staged . = the file which is staged and not commmited will restore to last commit 
+git restore --worktree . = the file which is not staged will restore to last commit
 
